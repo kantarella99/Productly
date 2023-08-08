@@ -1,0 +1,289 @@
+body {
+    font-family: Montserrat;
+    padding: 17px 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+
+.logo {
+    width: 200px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-self: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    padding-left: 20px;
+}
+
+.nav {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 153, 0, 1);
+}
+
+.styled {
+    width: Fixed (110px);
+    height: Fixed (46px);
+    left: 948px;
+    padding: 13px 25px 13px 25px;
+    border-radius: 4px;
+    border: 1px solid rgba(188, 208, 229, 1);   
+    background:white;
+    cursor: pointer;
+}
+
+.styled.button {
+    border: 0;
+    background-color: rgba(255, 153, 0, 1);
+}
+
+.styled:hover {
+    background-color:rgba(188, 208, 229, 1);
+}
+
+.styled.button:hover{
+    background-color: rgba(255, 153, 0, 0.7);
+}
+
+main {
+    padding: 0 9%;
+    color: rgba(47, 40, 30, 1);
+}
+
+.first-screen {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+}
+
+.box {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8% 0;
+    padding-right: 5%;
+}
+
+.styled.button.one {
+    width: 180px;
+    height: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 0 20%;
+    padding-bottom: 50px;
+}
+
+.cardtext {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.card ul {
+    width: 20%;
+}
+
+.card li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+li img {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 25px;
+}
+
+.second-screen .styled.button.one {
+    margin: 0 40%;
+}
+
+.text.bold {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+}
+
+.second-screen {
+    padding-bottom: 178px;
+    background: url("../img/bg.svg") no-repeat;
+}
+
+.therd-screen {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.therd-screen img {
+    width: 562px;
+    height: 573px;
+
+}
+
+.therd-screen .text {
+    padding-bottom: 28px;
+}
+
+.therd-screen .text.bold {
+    padding-bottom: 10px;
+}
+
+.therd-screen .box {
+    width: 60%;
+    padding: 0%;
+    padding-right: 12%;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.fourth-screen {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+    margin-left: 15%;
+    width: 40%;
+}
+
+
+.box4 img {
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+}
+
+.box4 li {
+    display: flex;
+}
+
+.box4 span {
+    margin-left: 30px;
+}
+
+.box4 ul {
+    padding-top: 40px;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+
+.fifth-screen {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 5%;
+}
+
+.box5 .text {
+    padding-bottom: 30px;
+}
+
+.box5 .text.bold {
+    padding-bottom: 12px;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+.box6 {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+}
+
+.box6 .text {
+    padding-bottom: 10px;
+}
+
+.box6 .text.bold {
+    padding-bottom: 20px;
+}
+
+.box6 img {
+    align-self: start;
+}
+
+.end {
+    width: 20%;
+}
+
+.box6 input {
+    margin-bottom: 20px;
+}
