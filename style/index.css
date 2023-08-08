@@ -56,11 +56,20 @@ a:hover {
     border: 1px solid rgba(188, 208, 229, 1);   
     background:white;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
 }
 
 .styled.button {
     border: 0;
     background-color: rgba(255, 153, 0, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: aliceblue;
 }
 
 .styled:hover {
@@ -104,6 +113,12 @@ h1 {
 .styled.button.one {
     width: 180px;
     height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: aliceblue;
+
 }
 
 h2 {
@@ -286,4 +301,16 @@ hr {
 
 .box6 input {
     margin-bottom: 20px;
+    color: rgba(188, 208, 229, 1);
+    border: 1px solid rgba(188, 208, 229, 1);
+    border-radius: 4px;
+    width: 340px;
+    height: 50px; 
+    padding-left: 10px;
+}
+
+.box6 input:focus {
+    outline: 0;
+    border: 1px solid rgba(188, 208, 229, 1);
+    color: rgba(188, 208, 229, 1);
 }
